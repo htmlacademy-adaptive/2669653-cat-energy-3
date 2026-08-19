@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
-
 * Студент: [Александр Прокопчук](https://up.htmlacademy.ru/adaptive-individual/3/user/2669653).
-* Наставник: `Неизвестно`.
+* Наставник: [Андрей Грачев](https://htmlacademy.ru/profile/angra).
+
 
 ---
 

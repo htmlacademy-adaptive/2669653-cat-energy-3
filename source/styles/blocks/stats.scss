@@ -1,0 +1,295 @@
+.stats {
+  background-color: #eaeaea;
+  padding-bottom: 38px;
+}
+
+.stats__title {
+  font-family: "Oswald", "Arial", sans-serif;
+  color: #000000;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  padding-top: 28px;
+}
+
+.stats__text {
+  font-family: "Lato", "Arial", sans-serif;
+  color: #444444;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  padding-top: 10px;
+}
+
+.stats__number {
+  font-family: "Oswald", "Arial", sans-serif;
+  color: #000000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.stats__description {
+  font-family: "Lato", "Arial", sans-serif;
+  color: #444444;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  text-align: center;
+  height: 24px;
+  position: absolute;
+  margin: 0;
+  top: 46px;
+  width: 77px;
+  padding: 2px 4px;
+  background-color: #eaeaea;
+}
+
+.stats__list {
+  display: flex;
+  gap: 32px;
+}
+
+.stats__item {
+  text-align: center;
+  border: 1px solid #cdcdcd;
+  width: 124px;
+  position: relative;
+  padding: 14px 17px 20px;
+}
+
+.stats__money {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.stats__money-price {
+  font-family: "Oswald", "Arial", sans-serif;
+  color: #000000;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.stats__money-value {
+  font-family: "Oswald", "Arial", sans-serif;
+  color: #000000;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+
+@media (min-width: $tablet-width) {
+  .stats__title {
+    font-family: "Oswald", "Arial", sans-serif;
+    color: #000000;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+  }
+
+  .stats {
+    padding-top: 50px;
+    padding-bottom: 97px;
+    background:
+      linear-gradient(
+        to bottom,
+        #ffffff 0,
+        #ffffff 685px,
+        #f2f2f2 685px,
+        #f2f2f2 100%
+      );
+  }
+
+
+  .stats__text {
+    font-family: "Lato", "Arial", sans-serif;
+    color: #444444;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 54px;
+  }
+
+  .stats__number {
+    font-family: "Oswald", "Arial", sans-serif;
+    color: #000000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37px;
+  }
+
+  .stats__description {
+    font-family: "Lato", "Arial", sans-serif;
+    color: #444444;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 85px;
+    width: 126px;
+  }
+
+  .stats__list {
+    gap: 43px;
+    display: flex;
+  }
+
+  .stats__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 7px;
+    width: 124px;
+    padding: 38px 18px 25px;
+  }
+
+
+  .stats__money {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 31px;
+    gap: 9px;
+  }
+
+
+  .stats__money-price {
+    font-family: "Oswald", "Arial", sans-serif;
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .stats__money-value {
+    font-family: "Oswald", "Arial", sans-serif;
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .stats-table {
+    display: flex;
+    margin-bottom: 85px;
+  }
+}
+
+
+@media (min-width: $desktop-width) {
+  .stats {
+    background: linear-gradient(#ffffff 0 240px, #f2f2f2 267px 100%);
+    padding-top: 31px;
+  }
+
+  .stats__title {
+    font-family: "Oswald", "Arial", sans-serif;
+    color: #000000;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+  }
+
+  .stats__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+  }
+
+
+  .stats__content {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .stats__money {
+    gap: 64px;
+    margin-top: 36px;
+    margin-left: 2px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .stats__text {
+    font-family: "Lato", "Arial", sans-serif;
+    color: #444444;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 432px;
+    padding-top: 93px;
+  }
+
+  .stats__number {
+    color: #000000;
+    font-family: "Oswald", "Arial", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37px;
+    margin-left: 14px;
+  }
+
+  .stats__description {
+    color: #444444;
+    background-color: #f2f2f2;
+    font-family: "Lato", "Arial", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    width: 100px;
+  }
+
+  .stats__list {
+    gap: 51px;
+  }
+
+  .stats__item {
+    width: 125px;
+    margin-top: 0;
+    padding-left: 10px;
+  }
+
+  .stats__price {
+    font-family: "Oswald", "Arial", sans-serif;
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 167px;
+  }
+
+  .stats-table {
+    display: grid;
+    justify-content: start;
+    margin-top: 31px;
+  }
+}
+

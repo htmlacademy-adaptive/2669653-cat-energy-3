@@ -1,0 +1,172 @@
+.button {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 25px;
+  line-height: 20px;
+  background-color: #68b738;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  width: 280px;
+  min-height: 40px;
+  text-align: center;
+}
+
+.button--product {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.button--long {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 11px;
+}
+
+.button--grey {
+  background-color: #f2f2f2;
+  color: #444444;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.button--programm {
+  background-color: rgba(104, 183, 56, 0.85);
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 280px;
+  min-height: 40px;
+  padding: 10px 64px;
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.button-plus {
+  background-image: url("../../icons/plus.svg");
+  background-color: #ffffff;
+  margin-left: 120px;
+  border: none;
+  width: 30px;
+  height: 30px;
+}
+
+
+@media (min-width: $tablet-width) {
+  .button--product {
+    width: 100%;
+    min-height: 40px;
+    margin-top: auto;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+  }
+
+  .button--long {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 0;
+    grid-column: 1/-1;
+  }
+
+  .button--programm {
+    background-color: #68b738;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 242px;
+    padding: 13px 26px;
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 531px;
+    height: 48px;
+    left: 90px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .button--programm:hover {
+    background-color: #5eaa2f;
+  }
+
+  .button--programm:active {
+    background-color: #5eaa2f;
+    opacity: 0.3;
+  }
+
+  .button-plus {
+    color: #d3d3d3;
+    background-position: center;
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin-top: 14px;
+    margin-bottom: 19px;
+    margin-left: 127px;
+  }
+
+  .button--grey {
+    font-family: "Oswald", "Arial", sans-serif;
+    color: #444444;
+    box-sizing: border-box;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #f2f2f2;
+    border: none;
+    width: 250px;
+    margin-top: auto;
+    margin-bottom: 46px;
+    margin-left: 31px;
+    padding: 8px 24px;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .button--long {
+    width: 244px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .button-plus {
+    margin-left: 84px;
+  }
+
+  .button--programm {
+    font-family: "Oswald", "Arial", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 26px;
+    background-color: #68b738;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 235px;
+    padding: 13px 22px 10px;
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 104px;
+    height: 54px;
+  }
+
+
+  .button--product {
+    box-sizing: border-box;
+    width: 169px;
+    height: 40px;
+    margin: auto auto 0;
+  }
+
+  .button--grey {
+    width: 169px;
+    margin-bottom: 40px;
+  }
+}
+
