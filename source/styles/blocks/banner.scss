@@ -1,7 +1,10 @@
 .banner {
   background:
     linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)),
-    url("../../images/background-mobile-catalog@2x.jpg");
+    image-set(
+      url("../../images/background-mobile-catalog@1x.jpg") 1x,
+      url("../../images/background-mobile-catalog@2x.jpg") 2x
+    );
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -39,9 +42,12 @@
 
 @media (min-width: $tablet-width) {
   .banner {
-    background:
+    background-image:
       linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)),
-      url("../../images/background-tablet-catalog@2x.jpg");
+      image-set(
+        url("../../images/background-tablet-catalog@1x.jpg") 1x,
+        url("../../images/background-tablet-catalog@2x.jpg") 2x
+      );
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -73,7 +79,10 @@
   .banner {
     background:
       linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)),
-      url("../../images/background-desktop-catalog@2x.jpg");
+      image-set(
+        url("../../images/background-desktop-catalog@1x.webp") 1x,
+        url("../../images/background-desktop-catalog@2x.webp") 2x
+      );
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

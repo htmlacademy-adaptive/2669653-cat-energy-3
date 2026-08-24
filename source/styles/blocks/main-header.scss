@@ -165,7 +165,10 @@
         rgba(104, 183, 56, 0.85) 0%,
         rgba(104, 183, 56, 0.85) 100%
       ),
-      url("../../images/background-image-desktop-index@1x.jpg"),
+      image-set(
+        url("../../images/background-image-desktop-index@1x.jpg") 1x,
+        url("../../images/background-image-desktop-index@2x.jpg") 2x
+      ),
       linear-gradient(
         to right,
         #4c4b50 0%,
